@@ -1,116 +1,28 @@
-KAPALI OTOPARK ALGORİTMASI
-Adım 1 : BAŞLA
-Adım 2 : Otoparka git.
-Adım 3 : Kepengi aç.
-Adım 4 : Odana git.
-Adım 5 : Kapının kilidini aç.
-Adım 6 : Kapıyı aç.
-Adım 7 : Kapıdan içeri gir kapıyı kapat.
-Adım 8 : Masaya otur.
-Adım 9 : Bilgisayarı aç.
-Adım 10 : Sisteme giriş yap.
-Adım 11 : Otopark fiyat güncellemesi yap.
-Adım 12 : Sistemden otomobili seç.
-Adım 13 : Otomobil – 2 saat 5TL, sonraki her saat 1TL, 10 saatten sonrası günlük sabit ücret.
-Adım 14 : Otomobilin fiyat güncellenmesini kaydet.
-Adım 15 : Sistemden otomobilden çık.
-Adım 16 : Sistemden kamyonu seç.
-Adım 17 : Kamyon – 2 saat 8TL, sonraki her saat 2TL, 8 saatten sonrası günlük sabit ücret.
-Adım 18 : Kamyonun fiyat güncellenmesini kaydet.
-Adım 19 : Sistemden kamyondan çık.
-Adım 20 : Sistemden iş makinesini seç
-Adım 21 : İş Makinası – 2 saat 12TL, sonraki her saat 3TL, 8 saatten sonrası günlük sabit ücret.
-Adım 22 : İş makinesinin fiyat güncellenmesini kaydet.
-Adım 23 : Sistemden iş makinesinden çık.
-Adım 24 : Sistemi kapat.
-Adım 25 : Bilgisayarı kapat.
-Adım 26: Otoparka araç girişine izin ver.
-Adım 27 : Müşteri1 kamyonu ile 09.00’da geldi.
-Adım 28 : Bariyeri kaldırma tuşuna bas.
-Adım 29 : Bariyer kalktı.
-Adım 30 : Müşteri1 kamyonu ile giriş yaptı.
-Adım 31 : Bariyer indirme tuşuna bas.
-Adım 32 : Bariyer indi.
-Adım 33 : Müşteri2 iş makinası ile 09.30’da geldi.
-Adım 34 : Bariyer kaldırma tuşuna bas.
-Adım 35 : Bariyer kalktı.
-Adım 36 : Müşteri2 iş makinasi ile giriş yaptı.
-Adım 37 : Bariyer indirme tuşuna bas.
-Adım 38 : Bariyer indi.
-Adım 39 : Müşteri1 kamyonu ile 11.00’da çıkış kapısına geldi.
-Adım 40 : Müşteri1’in aracı sadece 2 saat kaldı.
-Adım 41 : 2 saat kaldığı için 8TL ödedi.
-Adım 42 : Bariyer kaldırma tuşuna bas.
-Adım 43 : Bariyer kalktı.
-Adım 44 : Müşteri1 kamyonu ile çıkış yaptı.
-Adım 45 : Bariyer indirme tuşuna bas.
-Adım 46 : Bariyer indi.
-Adım 47 : Müşteri3 otomobili ile 11.30’da geldi.
-Adım 48 : Bariyer kaldırma tuşuna bas.
-Adım 49 : Bariyer kalktı.
-Adım 50 : Müşteri3 otomobili ile giriş yaptı.
-Adım 51 : Bariyer indirme tuşuna bas.
-Adım 52 : Bariyer indi.
-Adım 53 : Müşteri4 iş makinası ile 13.00’da otoparka geldi.
-Adım 54 : Bariyer kaldırma tuşuna bas.
-Adım 55 : Bariyer kalktı.
-Adım 56 : Müşteri4 otomobili ile giriş yaptı.
-Adım 57 : Bariyer indirme tuşuna bas.
-Adım 58 : Bariyer indi.
-Adım 59 : Müşteri2 iş makinası ile 14.00’da çıkış kapısına geldi.
-Adım 60 : Müşteri2 4 saat 30 dakika otoparkta kaldı.
-Adım 61 : Buna göre ilk 2 saat = 12TL, Kalan 2 saat 30 dakika için ise 7,50TL ödemesi gerekir.
-Adım 62 : Müşteri2 12+ 7,50 = 19,50TL ödedi.
-Adım 63 : Bariyer kaldırma tuşuna bas.
-Adım 64 : Bariyer kalktı.
-Adım 65 : Müşteri2 iş makinası ile çıkış yaptı.
-Adım 66 : Bariyer indirme tuşuna bas.
-Adım 67 : Bariyer indi.
-Adım 68 : Müşteri5 kamyonu ile 14.30’da geldi.
-Adım 69 : Bariyer kaldırma tuşuna bas.
-Adım 70 : Bariyer kalktı.
-Adım 71 : Müşteri5 kamyonu ile giriş yaptı.
-Adım 72 : Bariyer indirme tuşuna bas.
-Adım 73 : Bariyer indi.
-Adım 74 : Müşteri3 otomobili ile 15.30’da çıkış kapısına geldi.
-Adım 75 : Müşteri3 4 saat otoparkta kaldı.
-Adım 76 : Buna göre ilk 2 saat 5TL, sonra kalan 2 saat için 2TL ödemesi gerekir.
-Adım 77 : Müşteri3 5 + 2 = 7TL ödedi.
-Adım 78 : Bariyer kaldırma tuşuna bas.
-Adım 79 : Bariyer kalktı.
-Adım 80 : Müşteri3 otomobili ile çıkış yaptı.
-Adım 81 : Bariyeri indirme tuşuna bas.
-Adım 82 : Bariyer indi.
-Adım 83 : Müşteri4 iş makinası ile 18.00 çıkış kapısına geldi.
-Adım 84 : Müşteri4 5 saat otoparkta kaldı.
-Adım 85 : Buna göre ilk 2 saat 12TL, kalan 3 saat için ise 9TL ödemesi gerekir.
-Adım 86 : Müşteri4 12 + 9 = 21TL ödedi.
-Adım 87 : Bariyer kaldırma tuşuna bas.
-Adım 88 : Bariyer kalktı.
-Adım 89 : Müşteri4 iş makinası ile çıkış yaptı.
-Adım 90 : Bariyer indirme tuşuna bas.
-Adım 91 : Bariyer indi.
-Adım 92 : Müşteri5 kamyonu ile 19.00’da çıkış kapısına geldi.
-Adım 93 : Müşteri5 4 saat 30 dakika otoparkta kaldı.
-Adım 94 : Buna göre ilk 2 saat 8TL, kalan 2 saat 30 dakika için ise 5TL ödemesi gerekir.
-Adım 95 : Müşteri5 8 + 5 = 13TL ödedi.
-Adım 96 : Bariyer kaldırma tuşuna bas.
-Adım 97 : Bariyer kalktı.
-Adım 98 : Müşteri5 kamyonu ile çıkış yaptı.
-Adım 99 : Bariyer indirme tuşuna bas.
-Adım 100 : Bariyer indi.
-Adım 101 : Müşteri6 otomobili ile 19.35’de otoparka geldi. 
-Adım 102 : Fakat kapanış saati 19.30 olduğu için bariyer açılmadı.
-Adım 103 : Müşteri6 geri döndü.
-Adım 104 : Masadan kalk.
-Adım 105 : Kapıya git.
-Adım 106 : Kapıyı aç.
-Adım 107 : Dışarı çık, kapıyı kapat.
-Adım 108 : Kapıyı tekrar geri kilitle.
-Adım 109 : Kepengi kapat.
-Adım 110 : Evine git.
-Adım 111 : SON
+using System;
 
-                                                                
-SALİH BOLAT - 231809095
+namespace OtoparkUcretiHesaplama
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int Saat = Convert.ToInt32(Console.ReadLine());
+            double ToplamTutar = 0;
 
+            if (Saat >= 24) // 24 saate eşit ya da fazla mı
+            {
+                ToplamTutar = ((Saat / 24) * 15) + ((Saat % 24) * 0.5);
+            }
+            else if (Saat <= 5) // 5 saate eşit veya az mı?
+            {
+                ToplamTutar = Saat * 1;
+            }
+            else // 5 saatten fazla ise
+            {
+                ToplamTutar = 5 + ((Saat - 5) * 0.5);
+            }
+            Console.WriteLine(ToplamTutar);
+            Console.ReadLine(); // Ekranda beklemesi için
+        }
+    }
+}
