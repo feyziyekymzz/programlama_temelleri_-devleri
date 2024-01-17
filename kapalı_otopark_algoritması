@@ -9,20 +9,20 @@ namespace OtoparkUcretiHesaplama
             int Saat = Convert.ToInt32(Console.ReadLine());
             double ToplamTutar = 0;
 
-            if (Saat >= 24) // 24 saate eşit ya da fazla mı
+            if (Saat >= 24) 
             {
                 ToplamTutar = ((Saat / 24) * 15) + ((Saat % 24) * 0.5);
             }
-            else if (Saat <= 5) // 5 saate eşit veya az mı?
+            else if (Saat <= 5) 
             {
                 ToplamTutar = Saat * 1;
             }
-            else // 5 saatten fazla ise
+            else 
             {
                 ToplamTutar = 5 + ((Saat - 5) * 0.5);
             }
             Console.WriteLine(ToplamTutar);
-            Console.ReadLine(); // Ekranda beklemesi için
+            Console.ReadLine(); 
         }
     }
 }
